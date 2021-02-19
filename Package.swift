@@ -4,16 +4,15 @@ import PackageDescription
 let package = Package(
      name: "SwiftCharts",
      platforms: [
-         .iOS(.v8)
+          .iOS(.v8)
      ],
      products: [
          .library(name: "SwiftCharts", targets: ["SwiftCharts"])
      ],
-     targets: [
-        .target(
-               name: "SwiftCharts",
-               path: "SwiftCharts"
-        )
+     dependencies: [
      ],
-     swiftLanguageVersions: [.v5]
+     
+     targets: [
+          .target(name: "SwiftCharts")
+     ],
  )
