@@ -13,6 +13,6 @@ let package = Package(
      ],
      
      targets: [
-          .target(name: "SwiftCharts")
+          .target(name: "SwiftCharts", path: "SwiftCharts")
      ],
  )
